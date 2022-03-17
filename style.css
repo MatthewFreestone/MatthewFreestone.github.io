@@ -1,6 +1,18 @@
-h1{
-    color:cadetblue;
-}
 body{
-    background-color:bisque;
+    background-color:hsl(0, 0%, 75%);
+}
+.Resume-box{
+    display: flex;
+    justify-content: flex-start;
+    height: 90vh;
+    margin: 3vmin;
+    flex-direction: column;
+    align-items: center;
+}
+.Title{
+    text-align: center;
+}
+#Pdf-holder{
+    width: 95%;
+    height: 95%;
 }
