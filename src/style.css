@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .show {
   border : 5px solid red;
+}
+.resume-holder{
+  height: 90vh;
 }
