@@ -33,6 +33,8 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      - name: Give me Info!
+        run: ls .
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
