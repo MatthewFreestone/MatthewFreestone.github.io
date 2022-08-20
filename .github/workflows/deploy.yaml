@@ -30,8 +30,9 @@ jobs:
     - run: npm run build 
 
   deploy:
-    - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4
+    runs-on: ubuntu-latest
+    steps:
+      - uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: dist # The folder the action should deploy.
     # environment:
