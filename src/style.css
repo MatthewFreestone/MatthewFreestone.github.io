@@ -5,11 +5,11 @@ html {
   scroll-behavior: smooth;
 }
 .show {
-  border : 5px solid red;
+  border: 5px solid red;
 }
-.resume-holder{
+.resume-holder {
   height: 90vh;
 }
 .linkedin-blue {
-  color: rgb(10, 102,194)
+  color: rgb(10, 102, 194);
 }
